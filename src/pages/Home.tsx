@@ -110,7 +110,12 @@ const Home: React.FC = () => {
                     <p className="text-gray-600 mb-4">
                       An interactive map showing the relative safety of
                       different areas of London, based on statistics from
-                      Met/City of London Police data.
+                      Met/City of London Police data. The tool uses <a
+                        href="https://deck.gl"
+                        className="text-blue-600 hover:text-blue-700 font-medium"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      > GPU acceleration</a> to render 3.4M data points
                     </p>
                     <div className="flex gap-4">
                       <a
