@@ -94,6 +94,45 @@ const Home: React.FC = () => {
                   </div>
                 </div>
               </article>
+              <article className="bg-white rounded-2xl p-6 shadow-sm transition-all duration-200 hover:bg-gray-50 hover:shadow-md">
+                <div className="flex items-start gap-4">
+                  <div className="w-16 h-16 rounded-xl bg-blue-500 flex-shrink-0 overflow-hidden">
+                    <img
+                      src="/london-safety-icon.png"
+                      alt="London safety website icon"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-medium mb-2">
+                      London Safety Map
+                    </h3>
+                    <p className="text-gray-600 mb-4">
+                      An interactive map showing the relative safety of
+                      different areas of London, based on statistics from
+                      Met/City of London Police data.
+                    </p>
+                    <div className="flex gap-4">
+                      <a
+                        href="https://london-safety-map.netlify.app"
+                        className="text-blue-600 hover:text-blue-700 font-medium"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Live Demo
+                      </a>
+                      <a
+                        href="https://github.com/jackrvn/Interactive-London-Safety-Map"
+                        className="text-blue-600 hover:text-blue-700 font-medium"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Github
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
             </div>
           </section>
           <section>
