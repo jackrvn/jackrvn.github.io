@@ -140,29 +140,6 @@ const Home: React.FC = () => {
               </article>
             </div>
           </section>
-          <section>
-            <h2 className="text-2xl font-medium mb-6">Writing</h2>
-            <article className="bg-white rounded-2xl p-6 shadow-sm transition-all duration-200 hover:bg-gray-50 hover:shadow-md">
-              <div className="flex items-start gap-4">
-                <div>
-                  <h3 className="text-xl font-medium mb-2">Life in China</h3>
-                  <p className="text-gray-600 mb-4">
-                    Blogs from September 2018 - January 2019 about living in
-                    China (written for a paired school as part of the CISS
-                    scholarship program).
-                  </p>
-                  <a
-                    href="https://www.strath.ac.uk/humanities/confuciusinstituteforscotlandsschools/scholarship/scholarshipblogs/scholarshipblogs2018-19/jackirvine/"
-                    className="text-blue-600 hover:text-blue-700 font-medium"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Strathclyde University
-                  </a>
-                </div>
-              </div>
-            </article>
-          </section>
         </div>
       </div>
     </div>
